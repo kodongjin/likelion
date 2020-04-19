@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>웹 용</title>
+    <style>
+        body{
+            background-color: #fff;
+        }
+        form fieldset {
+            margin-bottom: 25px;
+        }
+        form legend { 
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .reg { 
+            font-size: 14px;
+            width: 110px;
+            color: #390;
+            font-weight: bold;
+            float: left;
+            text-align: right;
+            margin-right: 10px;
+        }
+        form ul li { 
+            list-style: none;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>멋사 특강 신청</h2>
+    <form>
+        <fieldset>
+            <legend>수강 신청인</legend>
+            <ul>
+                <li>
+                    <label class="reg" for="school_name">대학교</label>
+                    <input type="text" id="school_name">
+                </li>
+
+                <li>
+                    <label class="reg" for="name">이름</label>
+                    <input type="text" id="name">
+                </li>
+
+                <li>
+                    <label class="reg" for="major">학과</label>
+                    <select id="class">
+                        <optgroup label="공과대학">
+                            <option value="archi">건축공학과</option>
+                            <option value="merch">기계공학과</option>
+                            <option value="indus">산업공학과</option>
+                        </optgroup>
+                        <optgroup label="인문대학">
+                            <option value="history">사학과</option>
+                            <option value="lang">어문학부</option>
+                            <option value="philo">철학</option>
+                        </optgroup>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
