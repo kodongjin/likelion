@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .top{ 
+            color: royalblue;
+            font-weight: 700;
+        }
+        h2 { 
+            color: sienna;
+        }
+        h3 { 
+            color: sienna;
+            font-size: 2em;
+        }
+        .m1 { 
+            text-align: center;
+        }
+        .submit { 
+            align-items: center;
+            position:absolute;
+            left: 50%;
+            margin-left: 110px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p class="top">안녕하세요? 멋쟁이사자처럼 여러분:D</p>
+    <p class="top">이번 주 css 수업은 어떠신가요?</p>
+    <p class="top">많이 어려우신가요?</p>
+    <p class="top">앞으로 더 어려울거에요!</p>
+
+    <form>
+        <fieldset>
+            <h2>멋사 소식</h2>
+            <ul>
+                <li>누구나 할 수 있다, 부트스트랩!! 출간!</li>
+                <pre>   ㄴ비전공자, 중학생도 ok!</pre>
+            </ul>
+            <ul>
+                <li>반응형 웹페이지의 모든 것 간!</li>
+                <pre>   ㄴ망각 방지 3종 새트로 무장한 책</pre>
+            </ul>
+            <hr><!---------------------------------------->
+            <div>
+                <p><em><small>모각코 이벤트 모집 - 모여서 각자 코딩해요</small></em></p>
+                <p><em><small>html 을 공부하면, css가 따라와요~</small></em></p>
+            </div>
+        </fieldset>
+    </form>
+
+    <form>
+        <header>
+            <h3>공지</h3>
+        </header>
+        <table border="1">
+            <tr>
+                <td>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAnFBMVEUAAAD////wmDdaWlqCgoLShTDw8PD29vaSkpK/v7/MzMza2trpkzXrlTW1tbXzmjfi4uIzIAw5OTnFxcX8oDpBQUEnJyfU1NRISEhRNBN7e3ufn59fX19VVVWrq6vo6Oh2dnaKiopubm4jIyMWFhZEREQvLy8NDQ2rbCfThTCiZyVGLBDfjTOZYSOOWSAsHAohFgh+TxwVDQTFfS00kyfzAAAEfUlEQVR4nO2c2XqbOBhAbYd67dR4xY1JvMRtpjPTaTt5/3eboAUkGbwBSsl3zpWREPoPEgIRkVYLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKmXycjwt4KS7VLiLwF/nl/Dkfd/IYfysuU+DXffAX9jV8/idXcfyhuEi+4KO/mK/lr7xmvNZws/IX8PX8ndOMVxqu/UV7G9+PmvEqw3DqL9RbOWrGawx/+waUfB+PbzMcNaABJZNv81sM+/4iLM+/RjNeaDj66i+8KvjxYX6d4c5fbFXxSzfjJYajg7/AquPny/xSw3t/UVWLbMazhsNGNqDkv6QZzxlufUVTD78649OGTW5Axcspw97WWxz18XN+wvBdMMGw8WDYfDBsPhg2HwybD4bNB8PmM5l3PhbRmbx1dFUwMd8OO8w/v3V0VXDKcIxhI8Cw+bz/keZH549C3kcbAgAAALwpq10QBLsnJzUOktTkV/Ij2Gc5YjtIllXcB0fssj9m70WCW5soszWrX0fdZC3msG+uBdu7uz0lUQbxTYZ9sVDCXWo2E6nJL7mOIs0YyIUjyereXs6iymzFU5Rs9tzaRJkwMxkZZaNMQCYbil9EwqBCw0FqKGKa6fRPMhix+rWbY7hMjzBMNrtubaLMSG0cIqd0pLuSEs+iWojtT/UbPsqa77JoSxhOczrBnWW48W64lhXHRrQOWS89azjNKa6PrTtv2nc8Gcpd23rYEdF2BzODYTZinTVMT1C03u0eN3prahqmK/38GAa2oAwxKjruOUN1Rbf1SdmrPruxDNsLj4ZbWWW2/K6U4VdlkK2nPSjFwDLs+jPc292mrKFqQjPmRdaIxk1k6Mswdk95SUPZYPb9Uo3UD5ahrLJ2w4Ea+KxF9mUMH3KO11qmidIwM67fcCRP+czaJ+duYXzoc9pQjVoLO3ej+6U0bKknAh+GGutTrBxDo01OG67T2E1EmSRbGj6pyiOPhtZ1U72hrHWjDZetlT6sN0PjEby+NgwzQ/2QEU89GKrh3RhMpWHP4HJDdR06kzZ5HUaGoZLureo3fNSnM/uoroKx1F69v9RVGYbqPHZrN0yOLUe2LOgK7ocjK1PdHfaWoXoOqNtQeDw7t4wqnmm2Rp5ySUYzw1B36JoNpZV6rtEPbqUM9dwpq/g5vR5sQ/1aoaSh+54mf36outGiAsN0brFVOXpuISq1DFvpzKqM4SbM2ASFc/xQ7mxE25sNDSJnftgOzeMucueH4e5uFfdDbXF/bKjnIaUMLfqFhmq0G1ghmjhzfJvVBXN8+dxnG+p5jQ9Da5J4wXuaU4a572mUg2OoLw8fhvqyn1ZgmLOPHsRcQ3V5VGa4PvG+VD/JtC56X3pk6LwvjUMzf5ZexaFzsNZBJNz2vnQa3znErw30RfxI8kWS8d8BlmL/+LX2B7fga/Jzut/qOPOgypj/a2D1qCRHfUNo5RzsNcwkwZlsNYenxbT5n7YBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBvwP148SH+kwjxQAAAAAElFTkSuQmCC" width="400px" height="400px">
+                </td>
+                <td>
+                    <h4 class="m1"><strong>[html + css 인강 무료 배포]</strong></h4>
+                    <p class="m1">책에서도 불수 없는</p>
+                    <p class="m1">html + css 에 대한 모든 것</p>
+                    <p class="m1">무료로 공개</p>
+                    <div>
+                        <button class="submit" type="button" style="background-color: steelblue;">다운받기</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
